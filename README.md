@@ -2,6 +2,9 @@
 
 This is a responsive cryptocurrency table application built with **React + Vite**, styled with **Tailwind CSS**, and using **Axios** to fetch cryptocurrency data from the CoinLore API. The application displays cryptocurrency information with pagination and adapts to both desktop and mobile views.
 
+<img width="1679" alt="Crypto Table Screenshot" src="https://github.com/user-attachments/assets/dc80e658-3421-4708-b4fe-674011a29f55">
+
+
 ## Features
 
 - Responsive layout with table view for larger screens and card view for smaller screens.
