@@ -1,4 +1,3 @@
-// CryptoTable.js
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
@@ -44,7 +43,7 @@ const CryptoTable = () => {
 
       {/* Responsive table for larger screens */}
       <div className="hidden sm:block overflow-x-auto  shadow-md rounded-sm">
-        <table className="min-w-full border-collapse border border-gray-300">
+        <table className="min-w-full border-collapse border border-gray-400">
           <thead>
             <tr>
               <th className="border border-gray-400 px-4 py-2">💰 Coin</th>
