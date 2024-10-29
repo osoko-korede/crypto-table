@@ -74,19 +74,19 @@ const CryptoTable = () => {
         {currentCoins.map((coin) => (
           <div key={coin.id} className="grid grid-cols-2 bg-white even:bg-gray-300 p-4 rounded-sm">
             <div className="flex flex-col items-start mb-8">
-              <span className="font-semibold">💰 Coin:</span>
+              <span className="font-semibold">💰Coin:</span>
               <span>{coin.name}</span>
             </div>
             <div className="flex flex-col items-start mb-8">
-              <span className="font-semibold">📄 Code:</span>
+              <span className="font-semibold">📄Code:</span>
               <span>{coin.symbol}</span>
             </div>
             <div className="flex  flex-col items-start mb-8">
-              <span className="font-semibold">💸 Price:</span>
+              <span className="font-semibold">💸Price:</span>
               <span>${coin.price_usd}</span>
             </div>
             <div className="flex flex-col items-start mb-8">
-              <span className="font-semibold">📈 Total Supply:</span>
+              <span className="font-semibold">📈Total Supply:</span>
               <span>{parseFloat(coin.tsupply).toLocaleString()} {coin.symbol}</span>
             </div>
           </div>
