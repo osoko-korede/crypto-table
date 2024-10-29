@@ -3,6 +3,8 @@ import axios from "axios";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 
+
+
 const ITEMS_PER_PAGE = 10;
 
 const CryptoTable = () => {
@@ -43,7 +45,7 @@ const CryptoTable = () => {
 
       {/* Responsive table for larger screens */}
       <div className="hidden sm:block overflow-x-auto  shadow-md rounded-sm">
-        <table className="min-w-full border-collapse border border-gray-400">
+        <table className="min-w-full border-collapse border border-gray-300">
           <thead>
             <tr>
               <th className="border border-gray-400 px-4 py-2">💰 Coin</th>
@@ -116,5 +118,7 @@ const CryptoTable = () => {
     </div>
   );
 };
+
+
 
 export default CryptoTable;
